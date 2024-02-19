@@ -87,6 +87,12 @@ img {
     color: #fff;
 
 }
+.my-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .skills, .third, .fourth, .divide-images, .footer {
     display: flex;
@@ -96,8 +102,19 @@ img {
     margin-bottom: 1.5em;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .skills {
     margin: 1em;
+}
+
+.about-root > .lists:hover {
+
+    text-decoration: underline;
+
 }
 
 .fourth {
@@ -147,7 +164,7 @@ img {
     margin: 1em;
 } 
 
-a:hover {
+.lets-get-in-touch > a:hover {
     background-color: #36454F;
 }
 
