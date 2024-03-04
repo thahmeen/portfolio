@@ -253,7 +253,6 @@ a {
 
 @media (min-width: 1291px) {
     .container {
-        border: solid red;
         /* display: flex; */
         /* justify-content: center;
         flex-direction: column; */
@@ -280,7 +279,6 @@ a {
 
 @media (min-width: 320px) and (max-width: 1290px) {
     .container {
-        border: solid blue;
         max-width: 100%;
     }
     .lets-get-in-touch {
