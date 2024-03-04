@@ -251,9 +251,17 @@ a {
     padding: 0.5em;
 }
 
+.envelope {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5em;
+}
+
 @media (min-width: 1291px) {
     .container {
-        border: solid red;
         /* display: flex; */
         /* justify-content: center;
         flex-direction: column; */
@@ -280,7 +288,6 @@ a {
 
 @media (min-width: 320px) and (max-width: 1290px) {
     .container {
-        border: solid blue;
         max-width: 100%;
     }
     .lets-get-in-touch {
