@@ -251,7 +251,12 @@ a {
     padding: 0.5em;
 }
 
-@media (min-width: 1291px) {
+.envelope {
+    width: max-content;
+}
+
+
+@media (min-width: 1002px) {
     .container {
         /* display: flex; */
         /* justify-content: center;
@@ -259,7 +264,6 @@ a {
         align-items: center;
         max-width: 60%;
         margin: 0 auto;
-        /* padding: 1em; */
     }
 
     .front-end-container, .full-stack-projects, .back-end-languages {
@@ -272,20 +276,29 @@ a {
         justify-content: space-around;
     }
 
-    /* .root {
-        justify-content: space-between;
-    } */
+    .third {
+        margin: 1em;
+    }
+
+    .about, .about-me {
+        padding: 0em;
+    }
 }
 
-@media (min-width: 320px) and (max-width: 1290px) {
+@media (min-width: 320px) and (max-width: 1001px) {
     .container {
         max-width: 100%;
+        overflow: hidden;
+    }
+    .introduction {
+        background-size: auto;
     }
     .lets-get-in-touch {
         margin-right: 0em;
     }
     .mona-intro {
         letter-spacing: 0px;
+        font-size: 2em;
     }
     .skills {
         display: flex;
@@ -293,12 +306,13 @@ a {
     }
 
    .footer-msg {
-    width: 100%;
+    width: fit-content;
    }
 
-    /* .about-me {
-        padding: 1.5em;
-    } */
+   
+img {
+    width: 100%;
+}
     .girl, .techStack{
         margin: 0 auto;
     }
